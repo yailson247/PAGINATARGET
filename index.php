@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	define('SERVIDOR', 'localhost');
+	define('NOMBRE_BD', 'id19301973_yailson');
+	define('USUARIO', 'id19301973_diaz');
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>PAGINA OFICIAL DE TARGET</title>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600|Open+Sans" rel="stylesheet">
+	<style type="text/css">
+
+
+		header{ 
+	position: sticky;
+	top: 0;
+	z-index: 10000;
+	display: flex;
+	background-color: #fff;
+	height: 73px;
+	transition:  2s;
+		 }
+		 .abajo{
+		 	background-color: #000;
+		 }
+	header.abajo,
+	header.abajo ul li a{
+		 	color: #fff;
+		 }
+
+	.logo{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 186px;
+    height: 70px;
+
+		}
+
+
+
+		.menuToggle{
+	display: flex;
+	font-family: 'Montserrat', sans-serif;
+    width: 108px;
+    list-style: none;
+    top: 4px;
+    left: -40px;
+    text-align: center;
+    display: block;
+    LINE-HEIGHT: 55px;
+    text-decoration: none;
+
+
+		}
+		.hijoa:hover{
+			display: flex;
+			position: relative;
+			background-color:#ce0000 ;
+			color: black;
+			height: 50px;
+			top: 0px;
+			left: 0px;
+			z-index: 0px;
+			justify-content: center;
+			border-radius: 100px;
+			text-decoration: none;
+			transition: background-color, 0.5s;
+		}
+				.hijob:hover{
+					display: flex;
+			position: relative;
+			background-color:#ce0000 ;
+			color: black;
+			height: 50px;
+			top: 0px;
+			justify-content: center;
+			z-index: 0px;
+			border-radius: 100px;
+			text-decoration: none;
+			transition: background-color, 0.5s;
+		}
+				.hijoc:hover{
+					display: flex;
+			position: relative;
+			background-color:#ce0000 ;
+			color: black;
+			height: 50px;
+			top: 0px;
+			justify-content: center;
+			z-index: 0px;
+			border-radius: 100px;
+			text-decoration: none;
+			transition: background-color, 0.5s;
+		}
+		.audifonos{
+			color: black;
+			text-decoration: none;
+
+		}
+
+		.buscador{
+			display: flex;
+	position: absolute;
+    top: 19px;
+    left: 0px;
+    width: 235px;
+    height: 39px;
+    color: black;
+}
+.boton{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 200px;
+    height: 46px;
+    width: 46px;
+    padding: 14px 10px 11px 15px;
+    background-color: #d2f4ea;
+    border-radius: 100%;
+    border: none;
+}
+.header2{
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+	background-color: white;
+}
+.primero{
+	position: relative;
+}
+.celulares{
+position: relative;
+    color: #80d582;
+    font-weight: 700;
+    font-size: 57px;
+    left: 74px;
+    top: 20px;
+    text-decoration-line: overline;
+}
+.header3{
+	display: flex;
+	height: 440px;
+	background-color:  #fff;
+}
+.cr7{
+	    position: relative;
+    width: 148px;
+    top: 35px;
+    left: 35px;
+    border-radius: 87px;
+
+}
+.cr7:hover{
+	border-radius: 0px;
+	top: 0px;
+	width: 200px;
+	transition: width 2s;
+}
+.noticia1{
+	position: absolute;
+    top: 282px;
+    left: 10px;
+    text-align: center;
+    font-family: system-ui;
+}
+
+.redes1{
+ position: relative;
+    top: 103px;
+    left: 50px;
+    width: 70px;
+    height: 70px;
+}
+.redes2{
+    position: relative;
+    top: 200px;
+    left: -24px;
+    width: 68px;
+    height: 68px;;
+}
+.header4{
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+	background-color: #FFF;
+}
+.segundo{
+	position: relative;
+}
+.copaamerica{
+position: relative;
+    color: #f0ad4e;
+    font-weight: 700;
+    font-size: 57px;
+    left: 170px;
+    top: 0px;
+    text-decoration-line: overline;
+}
+
+.header5{
+	display: flex;
+background-color: #fff;
+}
+.letra{
+	font-family: 'Poppins', sans-serif;
+
+}
+.header5,td,tr{
+	display: flex;
+}
+.tenis{
+position: relative;
+    width: 400px;
+    height: 250px;
+    top: 14px;
+    left: 125px;
+    border-radius: 152px;
+
+}
+.parrafo23{
+	    margin: 50px 8px;
+    text-align: justify;
+}
+.nadal{
+	    position: relative;
+    width: 337px;
+    height: 300px
+    top: 0px;
+    left: 160px;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+}
+.header7{
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+}
+.copaamerica1{
+	position: relative;
+    color: #80d582;
+    font-weight: 700;
+    font-size: 57px;
+    left: 70px;
+    top: 0px;
+    text-decoration-line: overline;
+}
+.header8{
+	margin: auto;
+	width: 800px;
+	padding: 30px;
+}
+
+ul, li {
+	list-style: none;
+}
+ul.slider{
+	position: relative;
+	width: 800px;
+	height: 300px;
+}
+ul.slider li{
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	width: inherit;
+	height: inherit;
+	background-color: white;
+	transition: opacity 0.5s;
+}
+.menu22{
+position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #97e797;
+    padding: 8px;
+    width: 54px;
+    text-align: center;
+    height: 46px;
+    font-size: 20px;
+    left: 200px;
+    top: 58px;
+    border-radius: 100%;
+}
+ul.slider li img{
+	object-fit: cover;
+
+}
+ul.slider li:first-child{
+	opacity: 1;
+}
+
+ul.slider li:target{
+	opacity: 1;
+}
+.imagen44{
+	position: relative;
+	left: 20px;
+}
+.parrafo33{
+	position: relative;
+
+    left: 420px;
+    top: 63px;
+    font-size: 27px;
+    text-align: -webkit-right;
+}
+.parrafos2{
+	position: relative;
+		font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    left: 25px;
+}
+
+.huno{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    top: -10px;
+    text-align-last: center;
+    left: 0px;
+    font-variant: petite-caps
+
+}
+.parrafo{
+	font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+.copaamerica2{
+position: relative;
+    color: #80d582;
+    font-weight: 900;
+   font-family: 'Montserrat', sans-serif;
+    font-size: 57px;
+    text-align-last: center;
+    top: 80px;
+    text-decoration-line: overline;
+}
+.parrafo35{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 49px;
+    top: 72px;
+    text-align-last: center;
+
+}
+.hdos{
+	color: darkviolet;
+	position: relative;
+    left: 47px;
+    top: 67px;
+
+}
+.mover{
+			position: relative;
+    left: 36px;
+    top: 15px;
+
+}
+.subcribete{
+	background-color: black;
+}
+
+.overlay {
+	background: rgba(0,0,0,.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	visibility: hidden;
+	
+}
+.overlay.active{
+	visibility: visible;
+}
+.popup {
+	background: #F8F8F8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px;
+	text-align: center;
+	width: 600px;
+	transition: .3s ease all;
+	transform: scale(0.7);
+	
+}
+
+.popup .btn-cerrar-popup {
+	font-size: 16px;
+	line-height: 16px;
+	display: block;
+	text-align: right;
+	transition: .3s ease all;
+	color: #BBBBBB;
+}
+
+.popup .btn-cerrar-popup:hover {
+	color: #000;
+}
+
+.popup h3 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	
+}
+
+.popup h4 {
+	font-size: 26px;
+	font-weight: 300;
+	margin-bottom: 40px;
+	
+}
+.popup form .contenedor-inputs {
+	
+}
+
+.popup form .contenedor-inputs input {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 52px;
+	font-size: 18px;
+	line-height: 52px;
+	text-align: center;
+	border: 1px solid #BBBBBB;
+}
+
+.popup form .btn-submit {
+	padding: 0 20px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background: #5E7DE3;
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+.popup form .btn-submit:hover {
+	background: rgba(94,125,227, .9);
+}
+.btn-abrir-popup {
+	left: 180px;
+    padding: 0 20px;
+    position: absolute;
+    margin-bottom: 20px;
+    top: 197px;
+    width: 404px;
+    height: 86px;
+    line-height: 40px;
+    border: none;
+    color: #fff;
+    background: #d61933;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+.target11{
+	width: 367px;
+    position: absolute;
+    top: 182px;
+    left: 743px;
+}
+.tra{
+width: 450px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+.popup.active {	transform: scale(1); opacity: 1; }
+.popup.active h3 { animation: entradaTitulo .8s ease .5s forwards; }
+.popup.active h4 { animation: entradaSubtitulo .8s ease .5s forwards; }
+.popup.active .contenedor-inputs { animation: entradaInputs 1s linear 1s forwards; }
+
+@keyframes entradaTitulo {
+	from {
+		opacity: 0;
+		transform: translateY(-25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaSubtitulo {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaInputs {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@media only screen and (max-width:400px){
+	h1,h2,{
+		font-size: 23px;
+	
+
+	}
+
+}
+
+
+@media only screen and (max-width:900px){
+	.parrafo35{
+		width: 450px;
+	
+
+	}
+
+}
+@media only screen and (max-width:900px){
+	.hdos{
+		top: 36px;
+	
+
+	}
+
+}
+@media only screen and (max-width:900px){
+	.copaamerica,.copaamerica1, .celulares, .copaamerica2{
+	font-size: 23px;
+	left: 39px;
+	}
+
+}
+@media only screen and (max-width:989px){
+	.buscador,.boton, .hijo1{
+       display: none;
+
+    }
+    @media only screen and (max-width:500px){
+	.tra{
+		    top: 154px;
+    left: -550px;
+  
+
+    }
+  }
+        @media only screen and (max-width:500px){
+	.btn-abrir-popup{
+		left: 246px;
+		top: 197px;
+
+
+    }
+
+}
+        @media only screen and (max-width:1000px){
+	.redes2{
+		left: 50px;
+    }
+
+}
+@media only screen and (max-width:900px){
+	 .copaamerica2{
+       width: max-content
+       	font-size: 23px;
+	left: 39px;
+	}
+	@media only screen and (max-width:900px){
+	 .parrafo33{
+       position: relative;
+       text-align: left;
+  top: 89px;
+    left: -8px;
+	}
+
+	</style>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header class="row header" >
+		<div class="col-md-12 menu">
+		<div class="col-md-1"></div>
+		<div class="col-md-3 hijo"><img class="logo" src="logo.png"></div>
+		<div id="menuToggle" class="col-md-5 menuToggle">
+			<ul>
+				<li class="col-md-3 hijo1"><a class="audifonos" href="#Futbol"><p class="hijoa">FUTBOL</p></a></li>
+				<li class="col-md-3 hijo1"><a class="audifonos" href="#copaamerica"><p class="hijob">TENIS</p></a></li>
+				<li class="col-md-3 hijo1"><a class="audifonos"  href="#Ciclismo"><p class="hijoc">CICLISMO</p></a></li>
+				<li class="col-md-3 hijo1"><a class="audifonos"  href="#Basketball"><p class="hijoc">REGISTRATE</p></a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 hijo3">
+			<input class="buscador" type="text" name="Buscador" placeholder="SEARCH IN TARGET">
+			<button class="boton">
+				<img src="lupa.png">
+			</button>
+		</div>
+		</div>
+	</header>
+	<div id="Futbol" class="row header2">
+		<div class="col-md-12 primero"><h2 class="celulares">FUTBOL PROFESIONAL</h2></div>
+	</div>
+	<div class="row header3">
+		<div class="col-md-2">
+			<img class="cr7" src="magua.jpg">
+			<h3 class="noticia1">!No lo quieren en Manchester¡💔</h3>
+		</div>
+		<div class="col-md-2">
+			<img class="cr7" src="cristiano.jpg">
+			<h3 class="noticia1">🤷‍♂️¿Donde sera el destino de CR7?.</h3>
+		</div>
+		<div class="col-md-2">
+			<img class="cr7"  src="neymar.jpg">
+			<h3 class="noticia1">Neymar lejos de Francia.🗼</h3>
+		</div>
+		<div class="col-md-2">
+			<img class="cr7" src="mbappe.jpg">
+			<h3 class="noticia1">🤑¿Mbappe se arrepiente de elegir Paris?</h3>
+		</div>
+		<div class="col-md-2">
+			<img class="cr7" src="dembele.jpg">
+			<h3 class="noticia1">😒Dembele Vuelve a lessionarse</h3>
+		</div>
+		<div class="col-md-2">
+			<img class="redes1" src="facebo.jpg">
+			<img class="redes2" src="tuiter.jpg">
+		</div>
+	</div>
+	</div>
+	<div id="copaamerica" class="row header4">
+		<div class="col-md-3 segundo"></div>
+		<div class="col-md-6 segundo"><h2 class="copaamerica">TORNEO ATP DE TENIS</h2></div>
+		<div class="col-md-3 segundo"></div>
+	</div>
+	<div class="row header5">
+		<table>
+			<tr>
+				
+				<td class="col-md-6 parrafo35"><p class="parrafo35">El segundo Grand Slam arranca con su fase previa desde el 16 de mayo para que el cuadro principal tome su salida el domingo, 22 de mayo. El No.1 del mundo Novak Djokovic es el jugador que defenderá la corona.</p><br>
+					<h2 class="hdos">CUARTOS DE FINAL</h2>
+				<p class="parrafo35"> Novak Djokovic (SRB) vs (5) Rafael Nadal (ESP) 2<br>
+
+				 Alexander Zverev (GER) vs (6) Carlos Alcaraz (ESP) <br>
+
+				 Casper Ruud (NOR) vs Holger Rune (DEN)<br>
+
+				(Andrey Rublev (RUS) vs (20) Marin Cilic (CRO)</p></td>
+				<td class="col-md-6"><img class="nadal" src="imagen.gif"></td>
+			</tr>
+			<tr>
+				<td class="col-md-6"></td>
+				<td class="col-md-6"><h3 class="huno">Autor:Andre Ramirez</h3></td>
+			</tr>
+
+		</table>
+	</div>
+	<div id="Ciclismo" class="row header7">
+		<div class="col-md-12 segundo"><h2 class="copaamerica1">CICLISMO TOUR DE FRANCIA</h2></div>
+	</div>
+	<div class="row header8">
+		<div class="col-md-6">
+		<ul class="slider">
+			<li id="slide1">
+				<img class="imagen44" src="imagen1.jpg">
+			 </li>
+			 <li id="slide2">
+				<img class="imagen44" src="imagen2.jpg">
+			 </li>
+			 <li id="slide3">
+				<img class="imagen44" src="imagen3.jpg">
+			 </li>
+		</ul>
+
+		<ul>
+			<li class="menu22">
+			<a href="#slide1">1</a>	
+			</li>
+			<li class="menu22">
+			<a href="#slide2">2</a>	
+			</li>
+			<li class="menu22">
+			<a href="#slide3">3</a>
+			</li>
+		</ul>
+	</div>
+	<div class="col-md-6 parrafo33">
+		<p class="parrafo">El pelotón arrancar la última semana del Tour con una primera toma de contacto en los Pirineos con un recorrido de 178,5 kilómetros entre Carcasona y Foix.</p>
+	</div>	
+	</div>
+	<div id="Basketball" class="row header9">
+		<div class="col-md-12 segundo"><h2 class="copaamerica2">SUBCRIBETE A NUESTRA PAGINA</h2></div>
+	</div>
+
+	<div class="row header10">
+		<div class="col-md-6">
+			<button class="btn-abrir-popup" id="btn-abrir-popup">SUBCRIBETE</button>
+			<div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+			<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+				<h3>SUSCRIBETE</h3>
+				<h4>Recibe 1 mes Gratis</h4>
+				<form action="">
+					<div class="contenedor-inputs">
+						<input type="text" name="" placeholder="Nombre Completo">
+						<input type="email" name="" placeholder="Correo">
+					</div>
+					<input type="submit" name="sumi" class="btn-submit" value="Suscribirse">
+				</form>
+		</div>
+	</div>
+	<div class="col-md-6 target11">
+		<img class="tra" src="logo.png">
+	</div>
+</div>
+
+
+	<script type="text/javascript">
+				window.addEventListener('scroll',function(){
+			const header = document.querySelector('header');
+			header.classList.toggle("abajo", window.scrollY > 0);
+		});
+	</script>
+	<script type="text/javascript">
+		var btnAbrirPopup = document.getElementById('btn-abrir-popup'),
+	overlay = document.getElementById('overlay'),
+	popup = document.getElementById('popup'),
+	btnCerrarPopup = document.getElementById('btn-cerrar-popup');
+
+btnAbrirPopup.addEventListener('click', function(){
+	overlay.classList.add('active');
+	popup.classList.add('active');
+});
+
+btnCerrarPopup.addEventListener('click', function(e){
+	e.preventDefault();
+	overlay.classList.remove('active');
+	popup.classList.remove('active');
+});
+	</script>
+
+</body>
+</html>
